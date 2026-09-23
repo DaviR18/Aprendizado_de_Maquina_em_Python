@@ -14,7 +14,7 @@ df["Application mode"] = df["Application mode"].apply(
 print(df["Application mode"].value_counts())
 
 #outra celula
-df.to_csv("data.csv", sep=";", index=False) # salva no bd
+df.to_csv("data.csv", sep=";", index=False) # salva no bd e muda o nome dele, lembra disso
 
 # one hot
 import pandas as pd
